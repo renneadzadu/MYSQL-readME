@@ -1,4 +1,7 @@
 # MYSQL-readME
+USE (name of DB);
+Show tables
+
 
 1. Create a Movies Database with a table similar to the excel screenshot above
 CREATE TABLE IF NOT EXISTS Movies( -> MovieID INT UNSIGNED NOT NULL AUTO_INCREMENT, -> Title VARCHAR(50) NOT NULL DEFAULT '', -> Runtime INT UNSIGNED NOT NULL DEFAULT 0, -> Genre VARCHAR (50) NOT NULL DEFAULT '', -> IMDB_Score DECIMAL(7,2) NOT NULL DEFAULT 99999.99, -> Rating VARCHAR(5) NOT NULL DEFAULT '', -> PRIMARY KEY (MovieID) -> );
